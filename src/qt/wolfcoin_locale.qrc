@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/wolfcoin_bg.qm</file>
+        <file alias="de">locale/wolfcoin_de.qm</file>
+        <file alias="en">locale/wolfcoin_en.qm</file>
+        <file alias="es">locale/wolfcoin_es.qm</file>
+        <file alias="fi">locale/wolfcoin_fi.qm</file>
+        <file alias="fr">locale/wolfcoin_fr.qm</file>
+        <file alias="it">locale/wolfcoin_it.qm</file>
+        <file alias="ja">locale/wolfcoin_ja.qm</file>
+        <file alias="nl">locale/wolfcoin_nl.qm</file>
+        <file alias="pl">locale/wolfcoin_pl.qm</file>
+        <file alias="pt">locale/wolfcoin_pt.qm</file>
+        <file alias="ru">locale/wolfcoin_ru.qm</file>
+        <file alias="sk">locale/wolfcoin_sk.qm</file>
+        <file alias="sv">locale/wolfcoin_sv.qm</file>
+        <file alias="vi">locale/wolfcoin_vi.qm</file>
+        <file alias="zh_CN">locale/wolfcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/wolfcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

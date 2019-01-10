@@ -1,0 +1,22 @@
+[Unit]
+Description=Wolfcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=wolfcoincore
+Group=wolfcoincore
+
+Type=forking
+PIDFile=/var/lib/wolfcoind/wolfcoind.pid
+ExecStart=/usr/bin/wolfcoind -daemon -pid=/var/lib/wolfcoind/wolfcoind.pid \
+-conf=/etc/wolfcoincore/wolfcoin.conf -datadir=/var/lib/wolfcoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

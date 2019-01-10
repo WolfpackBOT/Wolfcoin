@@ -1,0 +1,6 @@
+usr/local/bin/wolfcoin-qt usr/bin
+share/pixmaps/wolfcoin32.xpm usr/share/pixmaps
+share/pixmaps/wolfcoin16.xpm usr/share/pixmaps
+share/pixmaps/wolfcoin128.png usr/share/pixmaps
+debian/wolfcoin-qt.desktop usr/share/applications
+debian/wolfcoin-qt.protocol usr/share/kde4/services/
